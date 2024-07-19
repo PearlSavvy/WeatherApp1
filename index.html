@@ -8,25 +8,34 @@
   </head>
   <body>
     <div class="weather-app">
-  <header>
-    <form class="search-form">
-      <input type "Search" placeholder="Enter a city.."required class="search-form-input"> 
-      <input type
-      "Submit" value="Search" class="search-form-submit"/>
-    </form>
-  </header>
-  <main>
-    <h1>Durban</h1>
-    <p>
-      Friday 16:00, scattered clouds
-      <br />
-      Humidity: 66%, Wind: 3.13km/h
-    </p>
-    ⛅ &nbsp;16&deg;C
-  </main>
-  <footer>
-    //create links for Github and Netlify Coded by Pearl Msomi and is open
-    source on github hosted by Netlify
-  </footer>
+      <header>
+        <form class="search-form">
+          <input
+            type="text"
+            placeholder="Enter a city.."
+            required
+            class="search-form-input"
+          />
+          <input type="submit" value="Search" class="search-form-submit" />
+        </form>
+      </header>
+      <main>
+        <div class="app-data">
+          <div class="weather-app-city">Durban</div>
+          <div class="weather-app-temperature-container">
+            <div class="weather-app-icon">⛅</div>
+            <div class="weather-app-temperature">&nbsp;16&deg;C</div>
+          </div>
+          <p class="weather-app-details">
+            Friday 16:00, scattered clouds
+            <br />
+            Humidity: <strong>66%</strong>, Wind: <strong>3.13km/h</strong>
+          </p>
+        </div>
+      </main>
+      <footer>
+        Coded by Pearl Msomi and is open source on github hosted by Netlify
+      </footer>
+    </div>
   </body>
 </html>

@@ -1,5 +1,5 @@
 h1 {
-  color: pink;
+  color: rgb(241, 73, 101);
 }
 body {
   background: hsla(0, 54%, 97%, 0.849);
@@ -33,7 +33,6 @@ body {
   padding: 15px 20px;
 }
 
-/* Header and footer */
 header {
   border-bottom: 1px solid black;
   padding: 2px 0 30px 0;
@@ -45,43 +44,37 @@ footer {
   text-align: center;
 }
 
-/* Main content */
 .main {
   padding: 30px 0;
 }
 
-/* City name */
 .weather-app-city {
   font-size: 38px;
   line-height: 48px;
-  margin-bottom: 10px; /* Space below city */
+  margin-bottom: 10px;
 }
 
-/* Temperature and icon container */
 .weather-app-temperature-container {
   display: flex;
-  align-items: center; /* Align items vertically */
-  margin-bottom: 20px; /* Space below temperature */
+  align-items: center;
+  margin-bottom: 20px;
 }
 
-/* Weather icon */
 .weather-app-icon {
   font-size: 30px;
-  margin-right: 10px; /* Space between icon and temperature */
+  margin-right: 10px;
 }
 
-/* Temperature value */
 .weather-app-temperature {
   font-size: 30px;
   font-weight: bold;
 }
 
-/* Details */
 .weather-app-details {
   font-size: 16px;
   line-height: 20px;
   color: rgba(39, 33, 66, 0.4);
-  margin-top: 10px; /* Space above details */
+  margin-top: 10px;
 }
 
 .weather-app-details strong {

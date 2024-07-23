@@ -24,13 +24,14 @@ body {
   padding: 15px 20px;
 }
 
-.search-form-submit {
-  background-color: #f9f7fe;
-  border: none;
-  border-radius: 10px;
-  width: 10%;
-  font-size: 15px;
+.search-form-button {
+  background: #f09ed5;
   padding: 15px 20px;
+  border: none;
+  font-size: 16px;
+  margin-left: 5px;
+  border-radius: 10px;
+  color: white;
 }
 
 header {
